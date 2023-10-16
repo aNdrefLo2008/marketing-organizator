@@ -7,11 +7,11 @@ import React from "react"
 function page() {
   return (
     <div>
-      <div className='flex flex-col gap-1 justify-center items-center'>
-        <h1 className='font-semibold text-2xl'>
+      <div className='flex flex-col gap-1 justify-center items-center mx-4'>
+        <h1 className='font-semibold text-3xl text-center '>
           Welcome back to your marketing campaigns
         </h1>
-        <h3 className='font-semibold text-sm text-gray-600'>
+        <h3 className='font-semibold text-sm text-gray-600 text-center'>
           Here you can see, modify or delete the marketing campaigns of this
           client
         </h3>
@@ -20,7 +20,7 @@ function page() {
         <CampaignCard
           title='Social Medias'
           link='social-medias'
-          description='Here you can acces your campaigns regarding social medias.'
+          description='Here you can access your campaigns regarding social medias.'
           img='https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/12/99871876.jpg?auto=format&q=60&w=1280&h=960&fit=crop&crop=faces'
         />
         <CampaignCard

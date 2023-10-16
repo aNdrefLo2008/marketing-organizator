@@ -16,7 +16,7 @@ function CampaignCard({
 }) {
   return (
     <div className='p-4 flex justify-center flex-col gap-3 rounded-xl w-52 shadow-lg bg-white'>
-      <img className='rounded-xl' alt='Example' src={img} />
+      <img className='rounded-3xl' alt='Example' src={img} />
       <h2 className='text-xl font-semibold'>{title}</h2>
       <p className=''>{description}</p>
       <Link
