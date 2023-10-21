@@ -2,6 +2,7 @@
 
 import Navbar from "@/components/Navbar"
 import "./globals.css"
+import Sidebar from "@/components/Sidebar"
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
@@ -13,7 +14,10 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
       <head />
       <body className='bg-neutral-100'>
         <Navbar />
-        {children}
+        <div className='flex'>
+          <Sidebar />
+          {children}
+        </div>
       </body>
     </html>
   )

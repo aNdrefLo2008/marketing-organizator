@@ -57,13 +57,13 @@ export default function App() {
   return (
     <div className='flex flex-col gap-4 mx-4 justify-center items-center'>
       <img
-        className='h-48 rounded-3xl mb-6'
-        src='https://martech.org/wp-content/uploads/2016/12/instagram-logo-gradient3-ss-1920.jpg'
+        className='h-20 mb-6'
+        src='https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png'
       />
       <div className='flex justify-center items-center flex-col sm:flex-row gap-6'>
         <div className='flex flex-col gap-4 justify-center items-center'>
           {/*<Line options={options} data={data} />*/}
-          <div className='flex justify-between items-center mx-12 bg-white gap-4 shadow-lg p-4 rounded-xl'>
+          <div className='flex justify-between bg-white items-center mx-12 gap-4 shadow-lg p-4 rounded-xl'>
             <BsFillPeopleFill className='h-8 w-8' />
             <div className='flex flex-col'>
               <h4 className='text-sm font-semibold text-gray-600'>
@@ -75,7 +75,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className='bg-white flex justify-between items-center mx-12 gap-4 shadow-lg p-4 rounded-xl'>
+          <div className='flex justify-between items-center mx-12 gap-4 shadow-lg bg-white p-4 rounded-xl'>
             <BsPersonFillAdd className='h-8 w-8' />
             <div className='flex flex-col'>
               <h4 className='text-sm font-semibold text-gray-600'>
